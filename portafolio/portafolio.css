@@ -1,47 +1,92 @@
+/* Estilos para el cuerpo de la página */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:white;
+    background-color: #f4f4f4;
+    color: #333;
 }
-header {
-    background-color:blue;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-}
-nav {
-    background-color:black;
-    color: white;
-    text-align: center;
-    padding: 0.5rem;
-}
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-}
-.container {
-    padding: 2rem;
-}
-.informacion{
-    background-color: aqua;
-    border: 1px solid rgb(0, 0, 0);
-    padding: 5px;
-    margin: 5px;
-}
-.contacto{
 
-    border: 1px solid rgb(0, 0, 0);
-    padding: 5px;
-    margin: 5px; ;
+/* Estilos para el encabezado */
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
 }
-.div{
-    border: 1px solid rgb(0, 0, 0);
-    padding: 5px;
-    margin: 5px;
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
 }
-.imagen{
-    width: 500px;
-    height: 200px;
+
+header p {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Estilos para la barra de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los proyectos */
+.proyecto {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.proyecto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.proyecto h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }

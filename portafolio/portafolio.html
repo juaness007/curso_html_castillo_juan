@@ -1,30 +1,52 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi portafolio</title>
-    <link rel="stylesheet" href="portafolio.css">
+    <title>Mi Portafolio Personal</title>
+    <link rel="stylesheet" href="portafolio.css".css>
 </head>
 <body>
     <header>
-        <h1>Mi Portafolio</h1>
-        <h3>Juan Esteban Castillo Contreras</h3>
+        <h1>Juanes Castillo</h1>
+        <p>Desarrollador Web</p>
     </header>
+
     <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Acerca de</a>
-        <a href="#">Servicios</a>
+        <ul>
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
     </nav>
-    <div class="container">
-        <h2>Bienvenido a mi portafolio</h2>
-        <p>Aquí podrás encontrar una serie de informacion acerca de mi.</p>
-        <img class="imagen" src="contenido/programacion.jpg" alt="">
-        <div class="contacto">
+
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>¡Hola! Soy un apasionado desarrollador web con experiencia en HTML y CSS. Me encanta crear sitios web creativos y funcionales.</p>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos Destacados</h2>
+        <section class="proyecto">
+            <img src="contenido/Logo Sena.png" alt="Proyecto 1" width="80" > 
+            <h3>Proyecto 1</h3>
+            <p>Actualmente estoy participando de un proyecto que requiere un software para simular una seleccion de personal.</p>
+        </section>
+        <section class="proyecto">
+            <img src="proyecto2.jpg" alt="Proyecto 2">
+            <h3>Proyecto 2</h3>
+            <p>Descripción del proyecto 2.</p>
+        </section>
+        
+    </section>
+
+    <section id="contacto">
         <h2>Contacto</h2>
-        <div class="informacion">Whatssapp:3192680458</div>
-        <div class="informacion">Email:jamitocastillo@gmail.com</div>
-    </div>
-    <div></div>
+        <p>Puedes contactarme en <a href="mailto:correo@example.com">jamitocastillo@gmail.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Mi Portafolio Personal</p>
+    </footer>
 </body>
 </html>
