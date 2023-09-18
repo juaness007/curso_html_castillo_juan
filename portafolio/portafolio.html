@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio Personal</title>
-    <link rel="stylesheet" href="portafolio.css".css>
+    <link rel="stylesheet" href="portafolio.css">
 </head>
 <body>
     <header>
@@ -33,9 +33,9 @@
             <p>Actualmente estoy participando de un proyecto que requiere un software para simular una seleccion de personal.</p>
         </section>
         <section class="proyecto">
-            <img src="proyecto2.jpg" alt="Proyecto 2">
+            <img src="contenido/Logo Sena.png" alt="Proyecto 2" width="80">
             <h3>Proyecto 2</h3>
-            <p>Descripción del proyecto 2.</p>
+            <p>En el año 2022 fui parte de un proyecto de para el sena en el cual hicimos una pagina web en la que vendiamos de todo tipo de repuestos para computadores.</p>
         </section>
         
     </section>
@@ -43,8 +43,21 @@
     <section id="contacto">
         <h2>Contacto</h2>
         <p>Puedes contactarme en <a href="mailto:correo@example.com">jamitocastillo@gmail.com</a>.</p>
+        <section id="formulario">
+        <form action="procesar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
     </section>
-
+    </section>    
     <footer>
         <p>&copy; 2023 Mi Portafolio Personal</p>
     </footer>

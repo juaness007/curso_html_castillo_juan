@@ -3,34 +3,39 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color:#040404fb;
+    color: #e9d9d9;
 }
 
 /* Estilos para el encabezado */
 header {
     text-align: center;
-    background-color: #333;
+    background-image: url(./contenido/programacion.jpg) ;
+    background: linear-gradient(rgba(5,7,12,0.75)) ;
     color: #fff;
     padding: 20px;
+    
 }
 
 header h1 {
-    font-size: 36px;
+    font-size: 40px;
     margin: 0;
+    color: lightyellow;
 }
 
 header p {
-    font-size: 18px;
+    font-size: 20px;
     margin: 0;
+    color: lightyellow;
 }
 
-/* Estilos para la barra de navegación */
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
+    background: rgba(16, 60, 173, 0.110);
 }
 
 nav ul li {
@@ -40,11 +45,9 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #d4cbcb;
     font-weight: bold;
 }
-
-/* Estilos para las secciones */
 section {
     padding: 20px;
 }
@@ -54,12 +57,11 @@ section h2 {
     margin-bottom: 10px;
 }
 
-/* Estilos para los proyectos */
 .proyecto {
-    border: 1px solid #ccc;
+    border: 1px solid #392faa;
     padding: 20px;
     margin-bottom: 20px;
-    background-color: #fff;
+    background-color: #415eeda1;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -76,7 +78,7 @@ section h2 {
 /* Estilos para el pie de página */
 footer {
     text-align: center;
-    background-color: #333;
+    background-color: #415eeda1;
     color: #fff;
     padding: 10px;
 }
@@ -89,4 +91,32 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+#sobre-mi{
+    background: #415eeda1;
+}
+#contacto{
+    text-align: center;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin: 20px;
+    margin-bottom: 20px;
+    background-color: #415eeda1;
+    box-shadow: 0 2px 4px rgba(21, 43, 238, 0.742);
+    
+}
+#formulario{
+    padding: 2px;
+    align-items: center;
+    background: rgba(5,7,12,0.40);
+}
+#nombre{
+    background: rgba(146, 168, 222, 0.694); 
+}
+#email{
+    background: rgba(146, 168, 222, 0.694); 
+}
+#mensaje{
+    background: rgba(146, 168, 222, 0.694); 
 }
